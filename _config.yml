@@ -5,7 +5,7 @@ header-img: img/miaomiao.png
 email: hexsixology@gmail.com
 description: "欢迎来到小六家的藏宝图，这里没有宝藏，只有吐泡泡的小六。"
 keyword: "Google说它不看keyword了，Baidu你自己看着办吧"
-url: "http://hexsix.me"          # your host, for absolute URL
+url: "http://hexsix.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/hexsix/hexsix.github.io.git" # you code repository
 

@@ -25,7 +25,7 @@ SEOTitle: Bubble
 email: hexsixology@gmail.com
 keyword: "Google说它不看keyword了，Baidu你自己看着办吧"
 description: >- # this means to ignore newlines until "baseurl:"
-  欢迎来到小六家的藏宝图，这里没有宝藏，只有吐泡泡的小六
+  小六家的藏宝图
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hexsix.me" # the base hostname & protocol for your site, e.g. http://example.com
 github_repo: "https://github.com/hexsix/hexsix.github.io.git"

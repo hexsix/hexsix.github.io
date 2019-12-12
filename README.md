@@ -8,11 +8,11 @@ Still Under Construction
 
 - [x] New Theme
 - [ ] 充实 about 页面
-- [ ] tags 页面怎么这么丑啊
+- [x] tags 页面怎么这么丑啊
 
 ### Bug fix
 
-- [ ] 网页的标签页标题好长
+- [x] 网页的标签页标题好长
 - [x] 去除网站标题的下划线
 - [x] 404 图片改成透明的
 

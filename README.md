@@ -9,6 +9,7 @@ Still Under Construction
 - [x] New Theme
 - [ ] 充实 about 页面
 - [x] tags 页面怎么这么丑啊
+- [ ] “字体可以改可爱一点x”
 
 ### Bug fix
 

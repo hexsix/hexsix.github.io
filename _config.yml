@@ -1,106 +1,17 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: Bubble
 email: hexsixology@gmail.com
-SEOTitle: Bubble
-# header-img: img/miaomiao.png
-email: hexsixology@gmail.com
-keyword: "Google说它不看keyword了，Baidu你自己看着办吧"
 description: >- # this means to ignore newlines until "baseurl:"
   小六家的藏宝图
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hexsix.me" # the base hostname & protocol for your site, e.g. http://example.com
-github_repo: "https://github.com/hexsix/hexsix.github.io.git"
-show_downloads: false
-# twitter_username: hexsixology
-# github_username:  hexsix
+twitter_username: hexsixology
+github_username:  hexsix
 
 # Build settings
 theme: jekyll-theme-hacker
-# plugins:
-#   - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# 目录结构
-source:      .
-destination: ./_site
-layouts_dir:     ./_layouts
-collections: null
-
-# 阅读处理
-safe:         false
-include:      [".htaccess"]
-exclude:      []
-keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# 内容过滤
-show_drafts: null
-limit_posts: 0
-future:      true
-unpublished: false
-
-# 插件
-whitelist: []
 plugins:
   - jekyll-paginate
-
-# 转换
-markdown:    kramdown
 highlighter: rouge
-lsi:         false
-excerpt_separator: "\n\n"
-incremental: false
-
-# 服务器选项
-detach:  false
-port:    4000
-host:    127.0.0.1
-baseurl: "" # does not include hostname
-
-# 输出
-permalink:     date
-paginate_path: /page:num
-timezone:      null
-
-quiet:    false
-defaults: []
 paginate: 6
+paginate_path: "/page:num/"
+exclude: ["README.md", "LISENSE"]

@@ -4,22 +4,7 @@
 
 Still Under Construction
 
-### Feature
-
-- [x] New Theme
-- [ ] 充实 about 页面
-- [x] tags 页面怎么这么丑啊
-- [ ] “字体可以改可爱一点x”
-
-### Bug fix
-
-- [x] 网页的标签页标题好长
-- [x] 去除网站标题的下划线
-- [x] 404 图片改成透明的
-
-## 致谢
-
-感谢 qiubaiying/qiubaiying.github.io
+## FMS
 
 神 TM 有人 star，都是因为现在 github 只有专业用户才能用 private 的 gitpages，靠，巨硬你的马死了
 

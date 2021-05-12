@@ -1,13 +1,26 @@
 ---
 layout: default
-overwrite_description: "欢迎来到小六家的藏宝图，这里没有宝藏，只有吐泡泡的小六"
+description: "「欢迎来到小六家的藏宝图，这里没有宝藏，只有吐泡泡的小六」"
 ---
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-    </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <div class="content">
+    {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+  </div>
+{% endfor %}
+
+<!-- todo: 页数不够分页器都有 BUG，服了 -->
+<!-- <div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="/page{{ paginator.next_page }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div> -->

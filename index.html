@@ -4,10 +4,12 @@ description: "「欢迎来到小六家的藏宝图，这里没有宝藏，只有
 ---
 
 {% for post in site.posts %}
+<div style="margin-top: 40px;">
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
   <div class="content">
     {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
   </div>
+</div>
 {% endfor %}
 
 <!-- todo: 页数不够分页器都有 BUG，服了 -->

@@ -40,6 +40,7 @@ jekyll-spaceship:
         displayMath:
           - ['$$','$$']
           - ['\[','\]']
+        tags: 'ams'
       svg:
         fontCache: 'global'
     optimize: # optimization on building stage to check and add mathjax scripts
